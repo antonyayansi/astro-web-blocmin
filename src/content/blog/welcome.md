@@ -1,5 +1,5 @@
 ---
-title: 'Welcome to CCore!'
+title: 'Welcome to Blocmin!'
 pubDate: 2024-04-04T05:00:00Z
 description: "We're excited to introduce you to the ultimate productivity app designed to help you manage your tasks effortlessly to help you stay organized and efficient."
 author: 'Eleni K'
@@ -7,15 +7,15 @@ image: '/blog/post-01-cover.png'
 tags: ['productivity', 'announcement']
 ---
 
-Welcome to CCore! We're excited to introduce you to the ultimate productivity app designed to help you manage your tasks effortlessly. CCore combines powerful features with an intuitive interface to help you stay organized and efficient.
+Welcome to Blocmin! We're excited to introduce you to the ultimate productivity app designed to help you manage your tasks effortlessly. Blocmin combines powerful features with an intuitive interface to help you stay organized and efficient.
 
-![CCore is here.](/blog/post-01.png)
+![Blocmin is here.](/blog/post-01.png)
 
 We have rolled out new security updates to keep your data safe and secure. Learn more about our latest security enhancements and how they protect you.
 
-Whether you're managing personal tasks, collaborating with a team, or tracking your projects, CCore has you covered. Our mission is to provide you with the tools you need to succeed.
+Whether you're managing personal tasks, collaborating with a team, or tracking your projects, Blocmin has you covered. Our mission is to provide you with the tools you need to succeed.
 
-> CCore combines powerful features with an intuitive interface to help you stay organized and efficient!
+> Blocmin combines powerful features with an intuitive interface to help you stay organized and efficient!
 
 ### Key Features
 
@@ -24,4 +24,4 @@ Whether you're managing personal tasks, collaborating with a team, or tracking y
 - **Time Tracking**: Keep track of the time spent on tasks to improve productivity.
 - **Customizable Dashboards**: Tailor your workspace to fit your needs.
 
-Thank you for choosing CCore. We look forward to helping you achieve your goals!
+Thank you for choosing Blocmin. We look forward to helping you achieve your goals!

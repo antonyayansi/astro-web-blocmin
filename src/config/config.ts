@@ -21,13 +21,13 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'CCore',
+	siteTitle: 'Blocmin',
 	siteDescription:
-		'CCore es un software ERP basado en la nube, cuenta con modulos demandantes como Facturación, Logística, Compras, Ventas, y más.',
+		'Blocmin es un software ERP basado en la nube, cuenta con modulos demandantes como Facturación, Logística, Compras, Ventas, y más.',
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/logo.png',
-		alt: 'CCore logo'
+		alt: 'Blocmin logo'
 	},
 	canonical: true,
 	noindex: false,

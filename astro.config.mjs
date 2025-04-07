@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ccore.vercel.app/",
+  site: "https://Blocmin.vercel.app/",
   integrations: [
     tailwind(),
     icon(),

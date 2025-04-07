@@ -11,7 +11,7 @@ export interface SocialLink {
 export const socialLinks: SocialLink[] = [
 	{
 		name: 'facebook',
-		link: 'https://www.facebook.com/people/CCore/61572645158832/',
+		link: 'https://www.facebook.com/people/Blocmin/61572645158832/',
 		icon: 'fb-icon'
 	},
 	{
@@ -21,7 +21,7 @@ export const socialLinks: SocialLink[] = [
 	},
 	// {
 	// 	name: 'discord',
-	// 	link: 'https://discord.com/invite/CCore',
+	// 	link: 'https://discord.com/invite/Blocmin',
 	// 	icon: 'discord-icon'
 	// }
 ]

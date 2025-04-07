@@ -34,8 +34,8 @@ export interface NavData {
 export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.png',
-		alt: 'CCore logo',
-		text: 'CCore'
+		alt: 'Blocmin logo',
+		text: 'Blocmin'
 	},
 	navItems: [
 		{ name: 'Home', link: '/' },

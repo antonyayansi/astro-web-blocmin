@@ -35,13 +35,13 @@ export interface FooterData {
 
 export const footerNavigationData: FooterData = {
 	footerAbout: {
-		title: 'CCore',
+		title: 'Blocmin',
 		aboutText:
-			'CCore es un software ERP basado en la nube, cuenta con modulos demandantes como Facturación, Logística, Compras, Ventas, y más.',
+			'Blocmin es un software ERP basado en la nube, cuenta con modulos demandantes como Facturación, Logística, Compras, Ventas, y más.',
 		logo: {
 			src: '/logo.png',
-			alt: 'CCore logo',
-			text: 'CCore'
+			alt: 'Blocmin logo',
+			text: 'Blocmin'
 		}
 	},
 	footerColumns: [
@@ -102,6 +102,6 @@ export const footerNavigationData: FooterData = {
 		}
 	],
 	subFooter: {
-		copywriteText: '© CCore ' + new Date().getFullYear()
+		copywriteText: '© Blocmin ' + new Date().getFullYear()
 	}
 }
