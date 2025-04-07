@@ -1,0 +1,72 @@
+---
+// Feature Cards grid Section
+// ------------
+// Description: A grid of cards with feature information in a 4 column layout.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/FeatureCard.astro'
+
+// Content
+// - Cards
+import feature01 from '../../../assets/cards/feature-01.svg'
+import feature02 from '../../../assets/cards/feature-02.svg'
+import feature03 from '../../../assets/cards/feature-03.svg'
+import feature04 from '../../../assets/cards/feature-04.svg'
+import feature05 from '../../../assets/cards/feature-05.svg'
+---
+
+<Section id="features">
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2 class="text-pretty">
+			  Modulos inteligentes para <strong>impulsar</strong> tu negocio
+			</h2>
+			<p class="pb-0 text-lg">
+			  Descubre nuestra suite de modulos diseñados para optimizar procesos, mejorar la productividad y facilitar la toma de decisiones. CCore te brinda el control total de tu empresa en una plataforma unificada.
+			</p>
+		</Col>		  
+	</Row>
+	<Row>
+		<Col span="4">
+			<Card
+				title="Toda tu empresa en un solo lugar"
+				subtitle="Gestiona todas las áreas de tu negocio desde una plataforma centralizada. Controla operaciones, datos y procesos de manera eficiente."
+				image={feature01}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Optimiza tus proyectos y tareas"
+				subtitle="Planifica, asigna y haz seguimiento a tus tareas con herramientas intuitivas de gestión de proyectos."
+				image={feature02}
+				link="/features"
+			/>
+			<Card
+				title="Conecta a tu equipo en tiempo real"
+				subtitle="Facilita la comunicación interna con nuestra plataforma integrada de mensajería y colaboración."
+				image={feature03}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Gestión avanzada de clientes"
+				subtitle="Administra y fortalece las relaciones con tus clientes usando nuestro sistema CRM inteligente."
+				image={feature04}
+				link="/features"
+			/>
+			<Card
+				title="Automatiza tus finanzas y facturación"
+				subtitle="Genera, envía y gestiona facturas de manera automática, agilizando tu flujo de caja."
+				image={feature05}
+				link="/features"
+			/>
+		</Col>
+	</Row>
+</Section>

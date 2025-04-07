@@ -1,0 +1,46 @@
+---
+// Home page CTA Section
+// ------------
+// Description: A centered call to action section that contains: a title, text, a user review snippet, a button and a image.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import ChipNotification from '../../ui/ChipNotification.astro'
+import { Image } from 'astro:assets'
+import Button from '../../ui/Button.astro'
+
+// Content
+// - Hero Image
+import heroImage from '../../../assets/hero-01.webp'
+
+---
+
+<Section id="intro" padding="top" classes="bg-neutral-50 dark:bg-neutral-900">
+	<Row>
+		<Col span="2" />
+		<Col span="8" align="center">
+			<ChipNotification radius="rounded-full" classes="mb-6">
+				<strong>CCore ERP</strong> <span class="ml-2">Ultima versión</span>
+			</ChipNotification>
+			<h1>El ERP más fácil y <strong>potente</strong> que jamás usarás</h1>
+
+			<p class="pb-0 text-lg">Gestión empresarial sin complicaciones. Simple, rápido y efectivo.</p>
+			<Button size="lg" link="/">Comienza gratis</Button>
+		</Col>
+		<Col span="2" />
+		<Col span="2" />
+		<Col span="8">
+			<Image
+				src={heroImage}
+				alt="CCore. The tailwind astro theme"
+				class="translate-y-8 shadow-2xl rounded-md shadow-neutral-200 dark:shadow-neutral-950"
+				format="webp"
+			/></Col
+		>
+		<Col span="2" />
+	</Row>
+</Section>
